@@ -25,11 +25,11 @@ function App() {
      <SayMYName name='Bruno Feijó' />
      <SayMYName name={name} />
      <Pessoa 
-        nome='Thais'
-        idade='27'
-        profissao='Massoterapeuta'
-        foto='https://via.placeholder.com/150'
-     />
+        nome="Thais"
+        idade="27"
+        profissao="Massoterapeuta"
+        foto="https://via.placeholder.com/150"
+      />
     </div>
   );
 }
