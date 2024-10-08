@@ -5,4 +5,5 @@ function Frase(){
         </div>
     )
 }
+
 export default Frase

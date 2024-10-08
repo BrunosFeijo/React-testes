@@ -1,5 +1,7 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld';
+import SayMYName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
 
@@ -20,7 +22,14 @@ function App() {
      <p>Idade: {sum(10,20)}</p>
      <img src={url} alt='Minha imagem' />
      <HelloWorld /> {/* componente */}
-     
+     <SayMYName name='Bruno Feijó' />
+     <SayMYName name={name} />
+     <Pessoa 
+        nome='Thais'
+        idade='27'
+        profissao='Massoterapeuta'
+        foto='https://via.placeholder.com/150'
+     />
     </div>
   );
 }
