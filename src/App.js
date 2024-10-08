@@ -19,7 +19,8 @@ function App() {
      <p>Olá, {name}!</p>
      <p>Idade: {sum(10,20)}</p>
      <img src={url} alt='Minha imagem' />
-     <HelloWorld />
+     <HelloWorld /> {/* componente */}
+     
     </div>
   );
 }
