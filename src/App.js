@@ -2,6 +2,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMYName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import List from './components/List';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
         profissao="Massoterapeuta"
         foto="https://via.placeholder.com/150"
       />
+      <List />
     </div>
   );
 }
