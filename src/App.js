@@ -26,12 +26,12 @@ function App() {
      <SayMYName name='Bruno Feijó' />
      <SayMYName name={name} />
      <Pessoa 
-        nome="Thais"
+        nome="Thais" 
         idade="27"
         profissao="Massoterapeuta"
         foto="https://via.placeholder.com/150"
-      />
-      <List />
+      /> {/* usando props */}
+      <List /> {/* fragments */}
     </div>
   );
 }
