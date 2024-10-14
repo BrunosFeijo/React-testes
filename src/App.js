@@ -3,6 +3,8 @@ import HelloWorld from './components/HelloWorld';
 import SayMYName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
 
   return (
     <div className="App">
+      <Evento numero="1" />
+      <Form />
      <h1>Olá React!</h1>
      <p>Meu primeiro App!</p>
      <h2>Alterando JSX</h2>
