@@ -5,6 +5,7 @@ import Pessoa from './components/Pessoa';
 import List from './components/List';
 import Evento from './components/Evento';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <Condicional />
       <Evento numero="1" />
       <Form />
      <h1>Olá React!</h1>
