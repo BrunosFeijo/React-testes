@@ -6,10 +6,16 @@ import List from './components/List';
 import Evento from './components/Evento';
 import Form from './components/Form';
 import Condicional from './components/Condicional';
+import Cond_lista from './components/Cond_lista';
+import { useState } from 'react';
+import SeuNome from './components/SeuNome';
+import Saudacao from './components/Saudacao';
 
 function App() {
 
   const name = 'Bruno'
+  const meusItens = ['Item1','Item2','Item3']
+  const [nome,setNome] = useState()
 
   function sum(a,b){
     return a + b
@@ -19,6 +25,10 @@ function App() {
 
   return (
     <div className="App">
+      <SeuNome setNome={setNome} /> {/* nome é recebido/alterado */}
+      <Saudacao nome={nome} /> {/* nome é utilizado */}
+      <Cond_lista itens={meusItens} /> {/* com itens */}
+      <Cond_lista itens={[]} /> {/* sem itens */}
       <Condicional />
       <Evento numero="1" />
       <Form />
